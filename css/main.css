@@ -126,6 +126,15 @@
     margin-top: 0;
 }
 
+footer {
+    background-color:#2B2B2B; 
+}
+
 footer ul {
     display: inline-block;
+}
+
+footer ul li {
+    color: #ffffff;
+    text-decoration: none;    
 }
