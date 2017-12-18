@@ -85,8 +85,9 @@
 }
 
 .back-img {
-    background-image: url(assets/images/conduce.jpg);
+    background-image: url(../assets/images/conduce.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 30%;
 }
+
