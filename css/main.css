@@ -1,1 +1,92 @@
 /* Los estilos de tu proyecto */
+.backg-image {
+    background-image: url(../assets/images/taxi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    border: 2px solid greenyellow;
+    height: 600px;
+    top: 5px;
+}
+
+
+.enjoy-travel {
+    display: inline-block;
+    background-color: #F7B617;
+    color: #ffffff;
+    width: 40%;
+    height: 50%;
+    margin-top: 15%;
+}
+
+.enjoy-travel h3 {
+    margin-left: 15%;
+    line-height: 120%;
+}
+
+.text-img p, img {
+    display: inline-block;
+    margin-left: 15%;
+    line-height: 25%;
+}
+
+.text-img img {
+ height: 20px;
+}
+
+.sign-up, .driver {
+    margin-left: 20px;
+}
+
+.start-travel {
+    margin-top: 40%;
+    display: inline-block;
+    background-color: #F7B617;
+    color: #ffffff;
+    width: 60%;
+    height: 40%;
+}
+
+.start-travel p {
+    font-size: 2em;
+}
+
+.start-travel p, img {
+    display: inline-block;
+    margin-left: 1em;
+    line-height: 2em;
+}
+
+.start-travel img {
+    height: 1em;
+}
+
+.download {
+    margin-left: 40px;
+    display: block;
+}
+
+.app {
+    background-color: #F7B617;
+    width: 100%;
+    border: 1px solid palevioletred;
+}
+
+.backg-yellow {
+    background: #F7B617;
+    border: 4px solid #ffffff;
+    height: 30%; 
+    width: 100%;   
+}
+
+.backg-yellow img {
+    height: 10%;
+    border: 3px solid #ffffff;
+}
+
+.back-img {
+    background-image: url(assets/images/conduce.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30%;
+}
