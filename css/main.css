@@ -66,27 +66,66 @@
     display: block;
 }
 
+/*section 2*/
+
 .app {
+    display: block;
     background-color: #F7B617;
     width: 100%;
     border: 1px solid palevioletred;
 }
 
-.backg-yellow {
-    background: #F7B617;
-    border: 4px solid #ffffff;
-    height: 30%; 
-    width: 100%;   
+.container {
+   padding-left: 0;
+   margin-left: 0;
 }
 
-.backg-yellow img {
-    height: 10%;
-    border: 3px solid #ffffff;
+.box {
+    border: 2px  solid #ffffff;
+    border-left: 0;
+    margin: 1em 2em;
+    margin-left: 0;
+    width: 90%; 
 }
 
+.phone-LabCar {
+    width: 40%;
+    height: 30%;
+}
+
+.download-app {
+    color: #ffffff;
+    margin-left: 20%;
+    margin-top: 10%
+}
+
+
+/*section 3*/
 .back-img {
-    background-image: url(assets/images/conduce.jpg);
+    background-image: url(../assets/images/conduce.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30%;
+    background-position: center;
+    
+    display: block;
+}
+.drive-you {
+    height: 80%;
+    width: 50%;
+}
+
+.driver-you h2 {
+    margin-top: 0;
+}
+
+.rates {
+    background-color: #F7B617;
+}
+
+.rate-input h2 {
+    margin-top: 0;
+}
+
+footer ul {
+    display: inline-block;
 }
