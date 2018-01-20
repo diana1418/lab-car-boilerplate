@@ -7,87 +7,134 @@
     border: 2px solid greenyellow;
     height: 600px;
     top: 5px;
-}
-
-
-.enjoy-travel {
+  }
+  
+  
+  .enjoy-travel {
     display: inline-block;
     background-color: #F7B617;
     color: #ffffff;
     width: 40%;
     height: 50%;
     margin-top: 15%;
-}
-
-.enjoy-travel h3 {
+  }
+  
+  .enjoy-travel h3 {
     margin-left: 15%;
     line-height: 120%;
-}
-
-.text-img p, img {
+  }
+  
+  .text-img p, img {
     display: inline-block;
     margin-left: 15%;
     line-height: 25%;
-}
-
-.text-img img {
- height: 20px;
-}
-
-.sign-up, .driver {
+  }
+  
+  .text-img img {
+  height: 20px;
+  }
+  
+  .sign-up, .driver {
     margin-left: 20px;
-}
-
-.start-travel {
+  }
+  
+  .start-travel {
     margin-top: 40%;
     display: inline-block;
     background-color: #F7B617;
     color: #ffffff;
     width: 60%;
     height: 40%;
-}
-
-.start-travel p {
+  }
+  
+  .start-travel p {
     font-size: 2em;
-}
-
-.start-travel p, img {
+  }
+  
+  .start-travel p, img {
     display: inline-block;
     margin-left: 1em;
     line-height: 2em;
-}
-
-.start-travel img {
+  }
+  
+  .start-travel img {
     height: 1em;
-}
-
-.download {
+  }
+  
+  .download {
     margin-left: 40px;
     display: block;
-}
-
-.app {
+  }
+  
+  /*section 2*/
+  
+  .app {
+    display: block;
     background-color: #F7B617;
     width: 100%;
     border: 1px solid palevioletred;
-}
-
-.backg-yellow {
-    background: #F7B617;
-    border: 4px solid #ffffff;
-    height: 30%; 
-    width: 100%;   
-}
-
-.backg-yellow img {
-    height: 10%;
-    border: 3px solid #ffffff;
-}
-
-.back-img {
+  }
+  
+  .container {
+   padding-left: 0;
+   margin-left: 0;
+  }
+  
+  .box {
+    border: 2px  solid #ffffff;
+    border-left: 0;
+    margin: 1em 2em;
+    margin-left: 0;
+    width: 90%; 
+  }
+  
+  .phone-LabCar {
+    width: 40%;
+    height: 30%;
+  }
+  
+  .download-app {
+    color: #ffffff;
+    margin-left: 20%;
+    margin-top: 10%
+  }
+  
+  
+  /*section 3*/
+  .back-img {
     background-image: url(../assets/images/conduce.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30%;
-}
-
+    background-position: center;
+    
+    display: block;
+  }
+  .drive-you {
+    height: 80%;
+    width: 50%;
+  }
+  
+  .driver-you h2 {
+    margin-top: 0;
+  }
+  
+  .rates {
+    background-color: #F7B617;
+  }
+  
+  .rate-input h2 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color:#2B2B2B; 
+  }
+  
+  footer ul {
+    display: inline-block;
+  }
+  
+  footer ul li {
+    color: #ffffff;
+    text-decoration: none;    
+  }
