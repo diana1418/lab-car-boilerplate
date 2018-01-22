@@ -1,140 +1,226 @@
 /* Los estilos de tu proyecto */
+
+/* General */
+.white-text{
+  color: #ffffff;
+}
+
+.input-borderWhite {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 1vh;
+}
+/* Modal de loging */
+.user {
+  margin-left: 180px;
+}
+
+.back-white {
+  background-color: #ffffff;
+  width: 250px;
+  margin: 10px 0 10px 150px;
+}
+
+.backgr-yellow {
+  background-color: #F7B617;
+  border: none;
+  margin-left: 50px;
+}
+  
+.forgot {
+  display: block;
+}
+
+/*first section*/
 .backg-image {
-    background-image: url(../assets/images/taxi.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-    border: 2px solid greenyellow;
-    height: 600px;
-    top: 5px;
+  background-image: url(../assets/images/taxi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 600px;
+  top: 5px;
 }
-
-
+  
 .enjoy-travel {
-    display: inline-block;
-    background-color: #F7B617;
-    color: #ffffff;
-    width: 40%;
-    height: 50%;
-    margin-top: 15%;
+  display: inline-block;
+  background-color: #F7B617;
+  width: 40%;
+  height: 50%;
+  margin-top: 15%;
 }
-
+  
 .enjoy-travel h3 {
-    margin-left: 15%;
-    line-height: 120%;
+  margin-left: 15%;
+  line-height: 120%;
 }
-
+  
 .text-img p, img {
-    display: inline-block;
-    margin-left: 15%;
-    line-height: 25%;
+  display: inline-block;
+  margin-left: 15%;
+  line-height: 25%;
 }
-
+  
 .text-img img {
- height: 20px;
+  height: 20px;
 }
+  
 
 .sign-up, .driver {
-    margin-left: 20px;
+  margin-left: 70px;
 }
-
+  
 .start-travel {
-    margin-top: 40%;
-    display: inline-block;
-    background-color: #F7B617;
-    color: #ffffff;
-    width: 60%;
-    height: 40%;
+  margin-top: 40%;
+  display: inline-block;
+  background-color: #F7B617;
+  width: 60%;
+  height: 40%;
 }
-
+  
 .start-travel p {
-    font-size: 2em;
+  font-size: 2em;
 }
-
+  
 .start-travel p, img {
-    display: inline-block;
-    margin-left: 1em;
-    line-height: 2em;
+  display: inline-block;
+  margin-left: 1em;
+  line-height: 2em;
 }
-
+  
 .start-travel img {
-    height: 1em;
+  height: 1em;
 }
-
+  
 .download {
-    margin-left: 40px;
-    display: block;
+  margin-left: 40px;
+  display: block;
 }
 
-/*section 2*/
+.backgr {
+  background-color: #08AC9D;
+}
 
+/* section 2*/
+  
 .app {
-    display: block;
-    background-color: #F7B617;
-    width: 100%;
-    border: 1px solid palevioletred;
+  display: block;
+  background-color: #F7B617;
+  width: 100%;
+  height: 500px;
 }
-
+  
 .container {
-   padding-left: 0;
-   margin-left: 0;
+  padding-left: 0;
+  margin-left: 0;
 }
-
+  
 .box {
-    border: 2px  solid #ffffff;
-    border-left: 0;
-    margin: 1em 2em;
-    margin-left: 0;
-    width: 90%; 
+  border: 2px  solid #ffffff;
+  border-left: 0;
+  margin: 1em 2em;
+  margin-left: 0;
+  margin-top: 50px;
+  width: 90%; 
 }
-
+  
 .phone-LabCar {
-    width: 40%;
-    height: 30%;
+  width: 40%;
+  height: 30%;
 }
-
+  
 .download-app {
-    color: #ffffff;
-    margin-left: 20%;
-    margin-top: 10%
+  margin-left: 20%;
+  margin-top: 10%
 }
-
-
-/*section 3*/
-.back-img {
-    background-image: url(../assets/images/conduce.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     
-    display: block;
-}
-.drive-you {
-    height: 80%;
-    width: 50%;
+/* section 3*/
+.back-img {
+  background-image: url(../assets/images/conduce.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  height: 400px;
 }
 
-.driver-you h2 {
-    margin-top: 0;
+.driver-you {
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
+.driver-you h3 {
+  margin-top: 70px;
+  margin-left: 80px;
+}
+
+.driver-you p {
+  margin-left: 80px;
+}
+
+.become {
+  background: #F7B617;
+  border: none;
+  margin-left: 80px;
+}
+
+ /* Section4 */ 
 .rates {
-    background-color: #F7B617;
+  background-color: #F7B617;
+  height: 400px;
+}
+  
+.width60 {
+  width: 50%;
+  height: 100%;
+}
+
+.rate-input {
+  display: inline-block;
+  margin-top: 20%;
+  margin-left: 10%;
+  width: 50%;
 }
 
 .rate-input h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
+.second-input {
+  margin-top: 10px;
+}
+
+.map {
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 50px;
+  border: 1px solid #ffffff;    
+}
+  
+.map-google {
+  margin: 10px;
+}
+
+/*Footer*/
 footer {
-    background-color:#2B2B2B; 
+  background-color:#2B2B2B; 
 }
 
+.logoBlanco-footer {
+  margin-top: 40px;
+}
+  
 footer ul {
-    display: inline-block;
+  display: inline-block;
+  margin-left: 150px;
+}
+  
+footer ul li {
+  color: #ffffff;
+  list-style: none; 
+  margin-top: 20px;
 }
 
-footer ul li {
-    color: #ffffff;
-    text-decoration: none;    
+.copy {
+  margin-left: 70px;
 }
